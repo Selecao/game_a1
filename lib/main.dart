@@ -51,7 +51,7 @@ class _GameScreenState extends State<GameScreen> with TickerProviderStateMixin {
       ),
       // Score.
       Positioned(
-        left: 4,
+        left: 14,
         top: 2,
         child: Text(
           'Score: ${score.toString().padLeft(4, "0")}',
